@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.container{
+position: relative;
+  border:3px solid black;
+  border-radius: 8px;
+  width: 18vw;
+  height:60vh;
+  padding-top:2px ;
+  padding-bottom: 12px;
+}
+
+.button{
+  padding: 20px;
+  margin: 0 3px;
+  border:2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  width:52px;
+}
+.row{
+ 
+  margin: 6px 0;
+}
+.row input{  
+margin: 0px;
+    padding: 8px 9px;
+    border-radius: 5px;
+    border: 2px solid red;
+    font-size: 17.5px;
+}
