@@ -6,28 +6,61 @@ html, body {
 position: relative;
   border:3px solid black;
   border-radius: 8px;
-  width: 18vw;
-  height:60vh;
+  width: 76vw;
+  height:70vh;
   padding-top:2px ;
   padding-bottom: 12px;
+  background: lightgrey ;
 }
 
 .button{
+  
   padding: 20px;
   margin: 0 3px;
   border:2px solid black;
   border-radius: 8px;
   cursor: pointer;
   width:52px;
+  background: lightsteelblue ;
 }
+
+
 .row{
- 
+
   margin: 6px 0;
 }
 .row input{  
+
 margin: 0px;
     padding: 8px 9px;
     border-radius: 5px;
-    border: 2px solid red;
+    border: 2px solid black;
     font-size: 17.5px;
 }
+.r0{
+      position: absolute;
+    top: 8%;
+}
+.r1{
+      position: absolute;
+    top: 20%;
+}
+.r2{
+      position: absolute;
+    top: 34%;
+}
+.r3{
+      position: absolute;
+    top: 48%;
+}
+.r4{
+  position: absolute;
+    top: 62%;
+}
+.r5{
+  position:absolute;
+  top:76%;
+}
+
+  
+

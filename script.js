@@ -5,7 +5,7 @@ Array.from(buttons).forEach((button) => {
   button.addEventListener('click', (e) => {
     if (e.target.innerHTML == '=') {
       string = eval(string);
-      
+
       document.querySelector('input').value = string;
 
     }
@@ -16,11 +16,11 @@ Array.from(buttons).forEach((button) => {
       document.querySelector('input').value = string;
 
     }
-    else if (e.target.innerHTML == 'm+') {
+    else if (e.target.innerHTML == 'x^2') {
 
-      string = (string2 + string);
-
+      string = eval(string * string);
       document.querySelector('input').value = string;
+
 
     }
     else {
@@ -29,6 +29,6 @@ Array.from(buttons).forEach((button) => {
       document.querySelector('input').value = string;
 
     }
-    string2 = string;
+
   })
 })
