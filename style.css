@@ -3,13 +3,12 @@ html, body {
   width: 100%;
 }
 .container{
-position: relative;
+
   border:3px solid black;
   border-radius: 8px;
-  width: 76vw;
-  height:70vh;
-  padding-top:2px ;
-  padding-bottom: 12px;
+  width: 88vw;
+  
+  
   background: lightgrey ;
 }
 
@@ -28,6 +27,7 @@ position: relative;
 .row{
 
   margin: 6px 0;
+  display:flex;
 }
 .row input{  
 
@@ -35,31 +35,31 @@ margin: 0px;
     padding: 8px 9px;
     border-radius: 5px;
     border: 2px solid black;
-    font-size: 17.5px;
+   
 }
 .r0{
-      position: absolute;
+    
     top: 8%;
 }
 .r1{
-      position: absolute;
-    top: 20%;
+     
+    top: 18%;
 }
 .r2{
-      position: absolute;
-    top: 34%;
+      
+    top: 31%;
 }
 .r3{
-      position: absolute;
-    top: 48%;
+     
+    top: 43%;
 }
 .r4{
-  position: absolute;
-    top: 62%;
+  
+    top: 56%;
 }
 .r5{
-  position:absolute;
-  top:76%;
+  
+  top:69%;
 }
 
   
