@@ -1,20 +1,31 @@
 .text-center{
+  
   text-align: center;
+  
 }
 .bg-red{
+  
   background: lightcoral;
+  
 }
 .mx-auto{
+  
   margin: auto;
+  
 }
 .flex{
+  
   display: flex;
+  
 }
 .flex-box{
+  
   flex-direction: column;
   
 }
 
 .items-center{
+  
   align-items: center;
+  
 }

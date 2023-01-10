@@ -1,16 +1,17 @@
 html, body {
+  
   height: 100%;
   width: 100%;
   position:relative;
+  
 }
 .container{
 
   border:3px solid black;
   border-radius: 8px;
   width: 88vw;
-  
-  
   background: lightgrey ;
+  
 }
 
 .button{
@@ -28,6 +29,7 @@ html, body {
 
 
 .row{
+  
    display:flex;
   height: 68px;
   margin: 6px 0;
@@ -46,6 +48,7 @@ margin: 0px;
 .r0{
     
     top: 8%;
+  
 }
 .r1{
      
