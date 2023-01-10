@@ -21,21 +21,26 @@ html, body {
   border-radius: 8px;
   cursor: pointer;
   width:52px;
-  background: lightsteelblue ;
+  height:60px;
+  background: #9098a2 ;
+  
 }
 
 
 .row{
-
+   display:flex;
+  height: 68px;
   margin: 6px 0;
-  display:flex;
+ 
 }
 .row input{  
 
 margin: 0px;
     padding: 8px 9px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 2px solid black;
+  width:206px;
+  height:44px;
    
 }
 .r0{
@@ -63,5 +68,11 @@ margin: 0px;
   top:69%;
 }
 
+button:hover  {
+  
+   width:56px;
+  height: 65px;
+  
+}
   
 
